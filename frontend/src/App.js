@@ -11,6 +11,8 @@ import About from "./pages/AboutPage";
 import LandingPage from "./pages/LandingPage";
 import RegisterForm from "./forms/RegisterForm";
 import LoginForm from "./forms/LoginForm";
+import Surprise from "./pages/SurprisePage";
+import HomePage from "./pages/HomePage";
 
 function NavigationConditional() {
   const location = useLocation();
@@ -26,8 +28,10 @@ function App() {
         <NavigationConditional />
         <Routes>
           <Route exact path="/" element={<LandingPage />} />
+          <Route exact path="/home" element={<HomePage />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/register" element={<RegisterForm />} />
+          <Route exact path="/youarecool" element={<Surprise />} />
           <Route exact path="/login" element={<LoginForm />} />
         </Routes>
       </>

@@ -14,7 +14,7 @@ const Navbar = () => {
           </button>
         </li>
         <li>
-          <button onClick={() => navigate("/")}>
+          <button onClick={() => navigate("/home")}>
             <h1>Home</h1>
           </button>
         </li>
@@ -31,6 +31,11 @@ const Navbar = () => {
         <li>
           <button onClick={() => navigate("/")}>
             <h1>Contact</h1>
+          </button>
+        </li>
+        <li>
+          <button onClick={() => navigate("/youarecool")}>
+            <h1>???</h1>
           </button>
         </li>
       </ul>
