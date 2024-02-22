@@ -14,6 +14,9 @@ import LoginForm from "./forms/LoginForm";
 import Surprise from "./pages/SurprisePage";
 import HomePage from "./pages/HomePage";
 
+import One from "./levels/LevelOne";
+import Two from "./levels/LevelTwo";
+
 function NavigationConditional() {
   const location = useLocation();
   const forbiddenRoutes = ["/", "/register", "/login"];
@@ -33,6 +36,8 @@ function App() {
           <Route exact path="/register" element={<RegisterForm />} />
           <Route exact path="/youarecool" element={<Surprise />} />
           <Route exact path="/login" element={<LoginForm />} />
+          <Route exact path="/levelone" element={<One />} />
+          <Route exact path="/twoo" element={<Two />} />
         </Routes>
       </>
     </Router>
