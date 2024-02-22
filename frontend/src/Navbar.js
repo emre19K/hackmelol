@@ -9,27 +9,27 @@ const Navbar = () => {
       </h1>
       <ul>
         <li>
-          <button onClick={navigate("/")}>
+          <button onClick={() => navigate("/")}>
             <h1>Hall of Fame</h1>
           </button>
         </li>
         <li>
-          <button onClick={navigate("/")}>
+          <button onClick={() => navigate("/")}>
             <h1>Home</h1>
           </button>
         </li>
         <li>
-          <button onClick={navigate("/")}>
+          <button onClick={() => navigate("/")}>
             <h1>Projects</h1>
           </button>
         </li>
         <li>
-          <button onClick={navigate("/")}>
+          <button onClick={() => navigate("/about")}>
             <h1>About</h1>
           </button>
         </li>
         <li>
-          <button onClick={navigate("/")}>
+          <button onClick={() => navigate("/")}>
             <h1>Contact</h1>
           </button>
         </li>
