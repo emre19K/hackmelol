@@ -5,6 +5,7 @@ function One() {
   const navigate = useNavigate();
   const [input, setInput] = useState("");
 
+  
   function handleSubmit() {
     // ON SUCCESS OPENDOOR
     if (input === "1256") navigate("/twoo");
