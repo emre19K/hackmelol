@@ -16,6 +16,7 @@ import HomePage from "./pages/HomePage";
 
 import One from "./levels/LevelOne";
 import Two from "./levels/LevelTwo";
+import Three from "./levels/LevelThree";
 
 function NavigationConditional() {
   const location = useLocation();
@@ -38,6 +39,7 @@ function App() {
           <Route exact path="/login" element={<LoginForm />} />
           <Route exact path="/levelone" element={<One />} />
           <Route exact path="/twoo" element={<Two />} />
+          <Route exact path="/lvl3" element={<Three />} />
         </Routes>
       </>
     </Router>

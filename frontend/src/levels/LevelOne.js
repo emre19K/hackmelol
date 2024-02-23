@@ -7,11 +7,7 @@ function One() {
 
   function handleSubmit() {
     // ON SUCCESS OPENDOOR
-    if (input === "1256") onSuccess();
-  }
-
-  function onSuccess() {
-    navigate("/twoo");
+    if (input === "1256") navigate("/twoo");
   }
 
   return (
